@@ -21,9 +21,8 @@ public class ScanMath {
 				break;
 			}
 			
-			
-			
 		}
+		sc.close();
 		
 	}
 

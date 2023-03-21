@@ -31,4 +31,16 @@ public class Util {
 		}
 		return this.tof;
 		}
+
+
+
+	public boolean isTof() {
+		return tof;
+	}
+	
+	
+	
+	
+		
+		
 }
