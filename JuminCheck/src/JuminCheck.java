@@ -19,6 +19,8 @@ public class JuminCheck {
 				System.out.println("틀립니다");
 			}
 		}
+	}
+}
 			
 			/*String strJumin = args[0].replace("-", "");
 			int[] bits = { 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 5 };
@@ -37,8 +39,8 @@ public class JuminCheck {
 			} else {
 				System.out.println("틀립니다");
 			}
-		}*/
-	}
+		}
+	}*/
 
 
 		/*String strJumin = args[0].replaceAll("-", "");
