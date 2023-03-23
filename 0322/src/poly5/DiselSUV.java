@@ -6,6 +6,7 @@ public class DiselSUV implements Vehicle {
 	public void addFuel() {
 		// TODO Auto-generated method stub
 		System.out.println("주유소에서 급유 ");
+		
+		
 	}
-
 }
