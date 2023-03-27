@@ -14,5 +14,12 @@ public class CalenderEx02 {
 		
 		c.add(Calendar.MONTH, -6);
 		System.out.println(c.getTime());
+		
+		
+		
+	}
+	
+	public void brabo() {
+		
 	}
 }
