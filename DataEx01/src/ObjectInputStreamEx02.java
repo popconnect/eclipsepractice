@@ -16,6 +16,14 @@ public class ObjectInputStreamEx02 {
 			Person p = (Person)ois.readObject();
 			System.out.println(p.getName());
 			System.out.println(p.getPhone());
+			System.out.println(p.getAge());
+			System.out.println(p.getAddress());
+			
+			Person p2 = (Person)ois.readObject();
+			System.out.println(p2.getName());
+			System.out.println(p2.getPhone());
+			System.out.println(p2.getAge());
+			System.out.println(p2.getAddress());
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			System.out.println("[에러] : " + e.getMessage());
