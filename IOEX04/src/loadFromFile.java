@@ -2,7 +2,7 @@ import java.io.FileReader;
 import java.util.Properties;
 import java.util.Set;
 
-public class loadFromFile {
+public class loadFromFile extends PropertiesTestWithFile{
 	Properties props = new Properties();
 	try (FileReader input = new FileReader(PROP_FILE_PATH)) {
 		props.load(input);
